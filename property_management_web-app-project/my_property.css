@@ -1,0 +1,160 @@
+body{
+    background-color: #F2FDFD;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.property{
+    border:solid;
+    border-width:1px;
+    border-color:rgba(75,75,75,0.1);
+    
+    padding:20px 10px;
+    display:flex;
+    justify-content:space-between;
+    
+
+
+    
+
+}
+.property_name{
+    background-color:white;
+    border-radius:20px;
+    width:300px;
+    padding-left:15px;
+    font-family: poppins;
+    color:black;
+}
+.units_class{
+    display:flex;
+    background-color:white;
+    width: 300px;
+    padding-left: 30px;
+    padding-top:20px;
+    padding-bottom: 15px;
+    font-family:poppins;
+    border-radius:20px;
+
+}
+.percentage {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.vacant {
+    background-color: #F57676;
+    border-radius: 20px;
+    text-align: center;
+    ;
+    font-family: poppins;
+    margin-bottom: 7px;
+
+}
+
+.occupied {
+    background-color: #9BF5B5;
+    border-radius: 20px;
+    text-align: center;
+    ;
+    font-family: poppins;
+    margin-bottom: 7px;
+
+}
+.unlisted {
+    background-color: #EB8130;
+    border-radius: 20px;
+    text-align: center;
+    ;
+    font-family: poppins;
+    margin-bottom: 7px;
+}
+.edit_delete{
+    width:300px;
+    background-color :#F2FDFD;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit,.delete{
+    margin-right:30px;
+    border-radius:25px;
+    border:none;
+    height:50px;
+    width:75px;
+    color:white;
+    font-family:poppins;
+}
+.edit{
+    background-color: #5656C5;
+}
+.delete{
+    background-color: #EF4242;
+}
+.add_property{
+    margin-top:30px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_property_button{
+    background-color:#FBEEE5;
+    display:inline-block;
+    border-radius:20px;
+    padding: 10px 20px; 
+    font-family:poppins;
+    border:none;
+}
+
+.dashboard {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    bottom: 0px;
+    width: 160px;
+
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5px;
+    padding-left: 12px;
+
+
+}
+.dashboard_content{
+    transition: 1000ms;
+}
+.dashboard_content:hover{
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.dashboard_icons {
+    color: grey;
+}
+
+.dashboard_content {
+    display: inline-block;
+}
+p.icons_description {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: poppins;
+    font-size: 16px;
+
+}
+.maintenance_image,
+.arrears_icon,
+.payment_icon,
+.dashboard_icons {
+    width: 30px;
+}
+.content{
+    margin-left:175px;
+}

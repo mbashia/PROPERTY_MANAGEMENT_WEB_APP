@@ -1,0 +1,89 @@
+body{
+    background-color: #F2FDFD;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.dashboard {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    bottom: 0px;
+    width: 160px;
+
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5px;
+    padding-left: 12px;
+
+
+}
+
+.dashboard_icons {
+    color: grey;
+}
+
+.dashboard_content {
+    display: inline-block;
+}
+p.icons_description {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: poppins;
+    font-size: 16px;
+
+}
+.maintenance_image,
+.arrears_icon,
+.payment_icon,
+.dashboard_icons {
+    width: 30px;
+}
+.content{
+    margin-left:175px;
+}
+.property_rent{
+    border:solid;
+    border-width:1px;
+    border-color:rgba(75,75,75,0.1);
+    
+    padding:20px 10px;
+    display:flex;
+    justify-content:space-between;
+    
+
+
+    
+
+}
+.rent_details{
+    background-color:white;
+    border-radius:20px;
+    width:300px;
+    padding-left:15px;
+    font-family: poppins;
+}
+.bill_collected{
+    display:flex;
+    background-color:white;
+    width: 300px;
+    padding-left: 30px;
+    padding-top:20px;
+    padding-bottom: 15px;
+    font-family:poppins;
+    border-radius:20px;
+
+}
+.rent_arrears{
+    width:300px;
+    background-color :white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:poppins;
+
+}

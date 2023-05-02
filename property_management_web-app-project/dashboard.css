@@ -1,0 +1,175 @@
+body {
+    background-color: #F2FDFD;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 55px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+p.icons_description {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: poppins;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.maintenance_image,
+.arrears_icon,
+.payment_icon,
+.dashboard_icons {
+    width: 30px;
+}
+
+.m_request,
+.r_arrears,
+.b_collected,
+.portfolio,
+.units_class {
+    display: inline-block;
+}
+
+.dashboard {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    bottom: 0px;
+    width: 160px;
+
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5px;
+    padding-left: 12px;
+
+
+
+
+}
+span{
+    text-decoration:underline;
+    color:blue;
+}
+.dashboard_content{
+    transition: 1000ms;
+}
+.dashboard_content:hover{
+    cursor: pointer;
+    transform: translateX(10px);
+}
+.dashboard_icons {
+    color: grey;
+}
+
+.dashboard_content {
+    display: inline-block;
+}
+
+.grid_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 100px;
+    margin-left: 130px;
+
+}
+
+.m_request {
+
+    border-width: 1px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 200px;
+    line-height: 30px;
+    font-family: poppins;
+}
+
+.r_arrears {
+
+    border-width: 1px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 200px;
+    line-height: 30px;
+    font-family: poppins;
+}
+
+.b_collected {
+
+    border-width: 1px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 200px;
+    line-height: 30px;
+    font-family: poppins;
+}
+
+.portfolio {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: white;
+    background-color: #FBEEE5;
+    height: 200px;
+    font-family: poppins;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 370px;
+
+
+}
+
+.percentage {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.vacant {
+    background-color: #F57676;
+    border-radius: 20px;
+    text-align: center;
+    ;
+    font-family: poppins;
+    margin-bottom: 7px;
+
+}
+
+.occupied {
+    background-color: #9BF5B5;
+    border-radius: 20px;
+    text-align: center;
+    ;
+    font-family: poppins;
+    margin-bottom: 7px;
+
+}
+
+.unlisted {
+    background-color: #EB8130;
+    border-radius: 20px;
+    text-align: center;
+    ;
+    font-family: poppins;
+    margin-bottom: 7px;
+}

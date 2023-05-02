@@ -1,0 +1,41 @@
+body{
+    background-image:url('pictures/cover_house_12.jpg') ;
+   
+
+}
+.p{
+    color:white ;
+}
+.body{
+    display: flex;
+    flex-shrink: 0;
+}
+.catch_phrase{
+    color:white;
+    font-size: 35px;
+    font-family: poppins;
+
+}
+.business_info{
+   padding-left: 10px;
+}
+.business_name{
+    font-family:poppins;
+
+}
+.grid_div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.login_sign_in_button{
+    height:30px;
+    border-width:1px;
+    border-style:solid;
+    border-color: gray ;
+    background-color:#E8DBDB;
+    border-radius: 8px;
+    font-family: poppins;
+    margin-right: 15px;
+
+    
+}
